@@ -1,0 +1,316 @@
+body {
+      font-family: "Lato";
+       background-image: url('codingedu.jpg');
+      
+    }
+
+    .coursesb{
+
+background-image: url('courses.jpg') ;
+
+
+    }
+    
+
+    h1{
+      color:white ;
+      z-index:-1 ;
+      font-family: system-ui;
+      text-align: center;
+      font-size:  80px;
+
+    
+
+    }
+
+    table,td,tr, th{
+
+border: 2px solid white;
+width: auto;
+height: 300px;
+
+
+    }
+
+    
+
+
+
+    
+
+    .courses{
+
+  
+  font-family: system-ui;
+  font-weight: bold;
+  text-align: center;
+  color:white ;
+  font-size:medium;
+
+
+    }
+
+
+
+
+
+    h2{
+      color:white ;
+      z-index:-1 ;
+      font-family: system-ui;
+      text-align: left;
+      font-size:  60px;
+
+    }
+
+    .button {
+     
+      border: none;
+      color: white;
+      padding: 16px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      transition-duration: 0.4s;
+      cursor: pointer;
+      border-radius: 12px;
+      font-family: system-ui;
+    }
+    
+    .button1 {
+      background-color:orange; 
+      color: black; 
+      border: 2px solid white;
+    }
+    
+    .button1:hover {
+      background-color: lightseagreen;
+      color: white;
+    }
+    
+    .button2 {
+      background-color:orange; 
+      color: black; 
+      border: 2px solid white;
+    }
+    
+    .button2:hover {
+      background-color: lightseagreen;
+      color: white;
+    }
+    
+    .button3 {
+      background-color:orange; 
+      color: black; 
+      border: 2px solid white;
+    }
+    
+    .button3:hover {
+      background-color: lightseagreen;
+      color: white;
+    }
+    
+    .button4 {
+      background-color:orange; 
+      color: black; 
+      border: 2px solid white;
+    }
+    
+    .button4:hover {
+      background-color: lightseagreen;
+      color: white;
+    }
+
+
+
+
+    form{
+
+background-color: black;
+font-family: system-ui;
+color: white;
+border:2px solid white ;
+border-radius: 12px; ;
+
+
+
+
+
+
+    }
+    .container {
+      display: block;
+      position: relative;
+      padding-left: 35px;
+      margin-bottom: 12px;
+      cursor: pointer;
+      font-size: 22px;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+    
+    /* Hide the browser's default radio button */
+    .container input {
+      position: absolute;
+      opacity: 0;
+      cursor: pointer;
+    }
+    
+    /* Create a custom radio button */
+    .checkmark {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 25px;
+      width: 25px;
+      background-color: #eee;
+      border-radius: 50%;
+    }
+    
+    /* On mouse-over, add a grey background color */
+    .container:hover input ~ .checkmark {
+      background-color: lightseagreen;
+    }
+    
+    /* When the radio button is checked, add a blue background */
+    .container input:checked ~ .checkmark {
+      background-color: lightskyblue;
+    }
+    
+    /* Create the indicator (the dot/circle - hidden when not checked) */
+    .checkmark:after {
+      content: "";
+      position: absolute;
+      display: none;
+    }
+    
+    /* Show the indicator (dot/circle) when checked */
+    .container input:checked ~ .checkmark:after {
+      display: block;
+    }
+    
+    /* Style the indicator (dot/circle) */
+    .container .checkmark:after {
+       top: 9px;
+      left: 9px;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: white;
+    }
+    
+    
+
+a:hover{
+
+color:white;
+
+}
+
+
+
+
+a{
+
+color:lightskyblue ;
+
+
+}
+
+
+
+
+
+    .prevent-select {                /*so that you cannot select text*/
+      -webkit-user-select: none; 
+      -ms-user-select: none; 
+      user-select: none; 
+    }
+    p{
+      font-family: system-ui;
+      font-weight: bold;
+      text-align: center;
+      color:white ;
+      font-size:x-large;
+         
+
+
+
+    }
+    footer {
+        text-align: center;
+        padding: 3px;
+        background-color:lightskyblue;        
+        color: white;
+        font-weight: bold;
+        font-family: system-ui, -apple-system;
+       
+        
+      }
+    
+    .sidebar {
+      height: 100%;
+      width: 0;
+      position:fixed;
+      z-index: 2;
+      top: 0;
+      left: 0;
+      background-color: lightseagreen;
+      overflow-x: hidden;
+      transition: 0.5s;
+      padding-top: 60px;
+      display: block;
+    }
+    
+    .sidebar a {
+      padding: 8px 8px 8px 32px;
+      text-decoration: none;
+      font-size: 25px;
+      color: lightskyblue;
+      display: block;
+      transition: 0.7s;
+    }
+    
+    .sidebar a:hover {
+      color: #f1f1f1;
+    }
+    
+    .sidebar .closebtn {
+      position: absolute;
+      top: 0;
+      left: -70px;
+      font-size: 36px;
+      margin-left: 50px;
+    }
+    
+    .openbtn {
+      font-size: 20px;
+      cursor: pointer;
+      background-color: lightskyblue;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      z-index:2;
+      position:fixed;
+      cursor: pointer;
+      
+    }
+    
+    .openbtn:hover {
+      background-color: lightseagreen;
+    }
+    
+    #main {
+      transition: margin-left .5s;
+      padding: 16px;
+    }
+    
+    /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+     @media screen and (max-height: 450px) {
+      .sidebar {padding-top: 15px;}
+      .sidebar a {font-size: 18px;}
+    }
