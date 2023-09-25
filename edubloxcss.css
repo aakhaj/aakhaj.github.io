@@ -1,5 +1,4 @@
-     
-  body {
+body {
       font-family: "Lato";
        background-image: url('codingedu.jpg');
       
@@ -32,7 +31,17 @@ height: 300px;
 
 
     }
-    input[type=text], select {
+ul, li{
+  color:white ;
+  z-index:-1 ;
+  font-family: system-ui;
+  text-align: left;
+  font-size:  25px;
+
+
+}
+
+    input[type=text], select, input[type=textarea] {
       width: 100%;
       padding: 12px 20px;
       margin: 8px 0;
