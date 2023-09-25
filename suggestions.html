@@ -1,3 +1,10 @@
+
+
+
+
+
+
+
 <html>
    <head> 
 <title>Suggestions.</title>
@@ -19,10 +26,9 @@
           </script>
       
         <a href="index.html">🏠 Home</a>
-        <a href="#">📖 Courses</a>
-        <a href="#">📲 Contact Us</a>
-        <a href="#">➹Our Goal</a>
-        <a href="#">🙋The Team</a>
+        <a href="courses.html">📖 Courses</a>
+        <a href="contact.html">📲 Contact Us</a>
+        <a href="#">➹ Our Goal</a>
         <a href="suggestions.html">❓ Suggestions</a>
         <br><br><br><br><br>
         <p align="left">Powered By:</p>
@@ -39,10 +45,20 @@
     
 <h1 class="prevent-select">Suggestions</h1>
 <br><br><br><br>
-<p>We care about your suggestions.Please fill the form below.</p>
+<p>We care about your suggestions. Please fill the form below.</p>
 <br><br>
-<form class="form">
-    <P>How is our website?</P>
+<form class="form" action="thanks.html">
+  <div>
+    <br><br>
+    <label for="fname">First Name:-</label>
+    <input type="text" id="fname" name="firstname" placeholder="i.e. Ramesh">
+
+    <label for="lname">Last Name:-</label>
+    <input type="text" id="lname" name="lastname" placeholder="i.e. The Cat">
+     
+  </div>
+  
+  <P>How is our website?</P>
 
     <label class="container">Great!
         <input type="radio" checked="checked" name="radio">
@@ -52,7 +68,7 @@
         <input type="radio" name="radio">
         <span class="checkmark"></span>
       </label>
-      <label class="container">Average
+      <label class="container">Average...
         <input type="radio" name="radio">
         <span class="checkmark"></span>
       </label>
@@ -60,6 +76,14 @@
         <input type="radio" name="radio">
         <span class="checkmark"></span>
       </label>
+
+      <label>Inputs:-</label>
+      <input type="textarea" placeholder="i.e. What can we improve on?">
+     
+         
+         <center><input type="submit" value= "Submit"></center>
+        
+      
 
 
 
