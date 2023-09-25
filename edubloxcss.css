@@ -1,4 +1,5 @@
-body {
+     
+  body {
       font-family: "Lato";
        background-image: url('codingedu.jpg');
       
@@ -31,7 +32,35 @@ height: 300px;
 
 
     }
+    input[type=text], select {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
 
+    input[type=submit], select{
+
+  background-color:lightskyblue ;
+  border-radius: 12px;
+  border: 2px solid  white;
+  padding: 16px 32px;
+  text-align: center;
+  color: white;
+
+
+
+
+    }
+
+
+      
+
+
+    
     
 
 
