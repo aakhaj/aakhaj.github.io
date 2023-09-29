@@ -302,7 +302,7 @@ color:lightskyblue ;
       transition: 0.5s;
       padding-top: 60px;
       display: block;
-       background-image: url('sidebar.jpg');
+       background-image: url('sidebar.png');
     }
     
     .sidebar a {
