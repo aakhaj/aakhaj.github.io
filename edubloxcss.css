@@ -297,25 +297,25 @@ color:lightskyblue ;
       z-index: 2;
       top: 0;
       left: 0;
-      background-color: lightseagreen;
+      
       overflow-x: hidden;
       transition: 0.5s;
       padding-top: 60px;
       display: block;
-       background-image: url('sidebar.jpg');
+      background-image: url('sidebar.jpg');
     }
     
     .sidebar a {
       padding: 8px 8px 8px 32px;
       text-decoration: none;
       font-size: 25px;
-      color: lightskyblue;
+      color:white;
       display: block;
       transition: 0.7s;
     }
     
     .sidebar a:hover {
-      color: #f1f1f1;
+      color: lightseagreen;
     }
     
     .sidebar .closebtn {
