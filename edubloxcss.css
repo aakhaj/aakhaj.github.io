@@ -10,6 +10,9 @@ background-image: url('courses.jpg') ;
 
 
     }
+*{
+       -webkit-tap-highlight-color: transparent;
+}
     
 
     h1{
@@ -115,14 +118,14 @@ ul, li{
       cursor: pointer;
       border-radius: 12px;
       font-family: system-ui;
-           -webkit-tap-highlight-color: transparent;
+           
     }
     
     .button1 {
       background-color:orange; 
       color: black; 
       border: 2px solid white;
-           -webkit-tap-highlight-color: transparent;
+         
     }
     
     .button1:hover {
@@ -145,7 +148,7 @@ ul, li{
       background-color:orange; 
       color: black; 
       border: 2px solid white;
-           -webkit-tap-highlight-color: transparent;
+      
     }
     
     .button3:hover {
@@ -157,7 +160,7 @@ ul, li{
       background-color:orange; 
       color: black; 
       border: 2px solid white;
-           -webkit-tap-highlight-color: transparent;
+           
     }
     
     .button4:hover {
@@ -175,7 +178,7 @@ font-family: system-ui;
 color: white;
 border:2px solid white ;
 border-radius: 12px; ;
-  -webkit-tap-highlight-color: transparent;
+
     }
     .container {
       display: block;
@@ -188,7 +191,7 @@ border-radius: 12px; ;
       -moz-user-select: none;
       -ms-user-select: none;
       user-select: none;
-      -webkit-tap-highlight-color: transparent;
+
     }
     
     /* Hide the browser's default radio button */
@@ -207,7 +210,7 @@ border-radius: 12px; ;
       width: 25px;
       background-color: #eee;
       border-radius: 35%;
-   -webkit-tap-highlight-color: transparent;
+ 
     }
     
     /* On mouse-over, add a grey background color */
